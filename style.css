@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fadbd8;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61;
+}
+
+.logo img {
+    max-width: 150px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto;
+}
+
+
+.presentacion {
+    text-align: center;
+    padding: 50px;
+}
+
+.presentacion h1 {
+    font-size: 48px;
+    color: #ff6f61;
+}
+
+.presentacion p {
+    font-size: 24px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.caja {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.caja:hover {
+    transform: translateY(-10px);
+}
+
+.caja img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.caja h1 {
+    font-size: 24px;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.caja p {
+    font-size: 18px;
+    color: #333;
+}
+.historia {
+    color: #ff6f61;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; /* ajusta según tu preferencia */
+    padding: 0 20px; /* agrega un espacio a los lados para que no esté pegado al borde */
+}
+.historia p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #fadbd8;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #333;
+    font-size: 16px;
+}
